@@ -1,10 +1,15 @@
 ## About
 
-Code for the [SitePoint article]() on implementing a status update application with AngularJS and Firebase.
+Code for the [SitePoint article](http://www.sitepoint.com/real-time-status-update-app-angularjs-firebase) on implementing a status update application with AngularJS and Firebase.
 
 ## Usage
 
-You can clone this repo and use your own Firebase account by changing up the refs in three files:
+Clone this repo, then run `npm install` to install the dependencies.
+You'll need a server (such as [http-server](https://www.npmjs.com/package/http-server)) to view the app.
+
+## Firebase
+
+You can use your own Firebase account by following the instructions in the article and changing up the refs in three files:
 
 * components/auth/authService.js
 * components/status/statusService.js
